@@ -1,5 +1,6 @@
 <?php
 $html = "";
+
 if ($_POST["paiselegido"]==1) {
 	$html = '
 	<option value="1">Buenos Aires</option>
@@ -8,6 +9,7 @@ if ($_POST["paiselegido"]==1) {
     <option value="4">Salta</option>
 	';	
 }
+
 if ($_POST["paiselegido"]==2) {
 	$html = '
 	<option value="1">Madrid</option>
@@ -16,6 +18,7 @@ if ($_POST["paiselegido"]==2) {
     <option value="4">Bilbao</option>
 	';	
 }
+
 if ($_POST["paiselegido"]==3) {
 	$html = '
 	<option value="1">CDMX</option>
@@ -24,5 +27,6 @@ if ($_POST["paiselegido"]==3) {
     <option value="4">Tijuana</option>
 	';	
 }
+
 echo $html;	
 ?>
