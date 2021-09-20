@@ -1,1 +1,2 @@
-Este ejemplo muestra como funcionan dos selectores combinados. Segun el valor que selecciones en la primera lista, se completa la segunda lista con valores relacionados
+Este ejemplo muestra como funcionan dos selectores combinados. Segun el valor que selecciones en la primera lista, se completa la segunda lista con valores relacionados.
+Es un ejemplo sencillo para conocer como es el funcionamiento. No utiliza base de datos, sino que los valores estan definidos en una lista dentro del archivo buscarciudades.php
